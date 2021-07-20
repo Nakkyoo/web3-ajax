@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - Welcome</title>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="colors.js"></script>
+</head>
+<body>
+  <h1><a onclick="document.querySelector('article').innerHTML = '<h1>WEB</h1> <p> The World Wide Web (abbreviated WWW or the Web) is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and can be accessed via the Internet.English scientist Tim Berners-Lee invented the World Wide Web in 1989.He wrote the first web browser computer program in 1990 while employed at CERN in Switzerland.The Web browser was released outside of CERN in 1991, first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991..</p>';">WEB</a></h1>
+  <input id="night_day" type="button" value="night" onclick="
+    nightDayHandler(this);
+  ">
+  <ol>
+    <li><a onclick="document.querySelector('article').innerHTML = '<h1>HTML</h1> <p>이제 article /article이 왜 자꾸 오류가 발생하는지 알았다.아니 왜 web은 안나오고 난리냐..</p>'
+      ;">HTML</a></li>
+    <li><a onclick="document.querySelector('article').innerHTML = '<h1>CSS</h1> <p>대체 무엇이 오류가 나게한걸까... 내 1시간을 비벼먹은걸까... 그것 참 미스테리...</p>';">CSS</a></li>
+    <li><a onclick="document.querySelector('article').innerHTML = '<h1>JS</h1> <p> 여하간 잘 풀려서 그나마 불행 중 다행이네 <p>'">JavaScript</a></li>
+  </ol>
+  <article innerHTML="글씨가 진짜로 <br>써지려니"></article>
+</body>
+</html>
